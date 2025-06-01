@@ -1,0 +1,17 @@
+URL - http://localhost:3000/destinations/get?id=1
+
+
+Success Response :
+StatusCode :200
+{
+    "id": 1,
+    "url": "testing.com/resut",
+    "http_method": "post",
+    "headers": "{Allow:`*`}",
+    "accountid": "2be9e010-0265-4e00-b4a6-76b35db08e46",
+    "createdAt": "2025-06-01T12:27:07.973Z",
+    "updatedAt": "2025-06-01T12:27:07.973Z"
+}
+
+Failed Response:
+StatusCode - 404

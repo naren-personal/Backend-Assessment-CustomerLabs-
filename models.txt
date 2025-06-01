@@ -1,0 +1,14 @@
+// Accounts
+ email id (Mandatory field & unique), 
+ account id (unique to each account), 
+ account name (Mandatory field), 
+ App secret token (automatically generated), 
+ Website (optional)
+
+
+//Destinations
+An account can have multiple destinations.
+ URL (mandatory field), 
+ HTTP method (mandatory field) 
+ headers (mandatory field & have multiple values). 
+

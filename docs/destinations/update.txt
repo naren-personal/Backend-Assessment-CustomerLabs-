@@ -1,0 +1,24 @@
+URL - http://localhost:3000/destinations/update
+
+Sample Payload :
+{
+    "id": "1",
+    "url": "testing.com/data",
+    "http_method": "put",
+    "headers": "{Allow:`*`}"
+}
+
+Success Response :
+StatusCode :200
+{
+    "id": 2,
+    "url": "testing.com/data",
+    "http_method": "put",
+    "headers": "{Allow:`*`}",
+    "accountid": "2be9e010-0265-4e00-b4a6-76b35db08e46",
+    "createdAt": "2025-06-01T12:27:32.913Z",
+    "updatedAt": "2025-06-01T12:29:29.593Z"
+}
+
+Failed Response:
+StatusCode - 500 

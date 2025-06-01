@@ -1,0 +1,24 @@
+URL - http://localhost:3000/accounts/create
+
+Sample Payload :
+{
+    "email": "testing@gmail.com",
+    "account_name": "ABC",
+    "website": ""
+}
+
+
+Success Response :
+StatusCode :200
+{
+    "app_secret_token": "6638a24b-f878-424d-b98c-a769ee0b5d54",
+    "email": "testing1@gmail.com",
+    "account_name": "ABC",
+    "website": "",
+    "id": "f9cb4ff6-aa90-4d56-913d-bc9b6a3bfb71",
+    "updatedAt": "2025-06-01T12:21:05.863Z",
+    "createdAt": "2025-06-01T12:21:05.863Z"
+}
+
+Failed Response:
+StatusCode - 500 

@@ -1,0 +1,15 @@
+URL - http://localhost:3000/server/incoming_data
+
+
+Headers:{
+    "cl-x-token":"3f750789-0a4c-4405-ba43-3470948f22f2"
+}
+Sample Payload :
+{
+    "name":"meelad"
+}
+
+Success Response :
+{
+    "message": "Data forwarded successfully"
+}

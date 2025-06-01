@@ -1,0 +1,36 @@
+URL - http://localhost:3000/accounts/byaccount?accountid=2be9e010-0265-4e00-b4a6-76b35db08e46
+
+This url based on Paginations
+default page =1 
+
+Success Response :
+StatusCode :200
+{
+    "total": 2,
+    "page": 1,
+    "limit": 10,
+    "sortBy": "updatedAt",
+    "order": "DESC",
+    "destinations": [
+        {
+            "id": 2,
+            "url": "testing.com/data",
+            "http_method": "put",
+            "headers": "{Allow:`*`}",
+            "accountid": "2be9e010-0265-4e00-b4a6-76b35db08e46",
+            "createdAt": "2025-06-01T12:27:32.913Z",
+            "updatedAt": "2025-06-01T12:29:29.593Z"
+        },
+        {
+            "id": 3,
+            "url": "testing.com/resut",
+            "http_method": "post",
+            "headers": "{Allow:`*`}",
+            "accountid": "2be9e010-0265-4e00-b4a6-76b35db08e46",
+            "createdAt": "2025-06-01T12:27:36.307Z",
+            "updatedAt": "2025-06-01T12:27:36.307Z"
+        }
+    ]
+}
+Failed Response:
+StatusCode - 404
