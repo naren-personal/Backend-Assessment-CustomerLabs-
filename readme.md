@@ -6,13 +6,13 @@
 
 # Instrctions to Start the Server
 
-#### 1. Clone the repo
+#### 1. Clone the repository Run the following command in your terminal:
 
-#### 2. Make you Using the Nodejs
+#### 2. Ensure Node.js is installed Make sure Node.js is installed on your system. You can verify it using:
 
-#### 3. go the Project and run "npm run server"
+#### 3. Navigate to the project directory and Install dependencies and start the server
 
-#### 4. Run the http://localhost:3000 to see the server is running
+#### 4. Verify the server is running Open your browser and go to: http://localhost:3000
 
 ## API Endpoints
 
