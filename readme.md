@@ -6,9 +6,9 @@
 
 # Instrctions to Start the Server
 
-#### 1. Clone the repository Run the following command in your terminal:
+#### 1. Clone the repository Run the following command in your terminal: git clone (https://github.com/naren-personal/Backend-Assessment-CustomerLabs-.git)
 
-#### 2. Ensure Node.js is installed Make sure Node.js is installed on your system. You can verify it using:
+#### 2.Make sure Node.js is installed on your system. You can verify it using: node -v
 
 #### 3. Navigate to the project directory and Install dependencies and start the server
 
